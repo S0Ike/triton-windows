@@ -7,7 +7,7 @@ on:
         description: Git tag
         required: true
         type: string
-        default: main-windows
+        default: release/3.7.x-windows
       triton_wheel_version_suffix:
         description: Triton wheel version suffix
         required: false
